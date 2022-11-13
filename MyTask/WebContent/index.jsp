@@ -73,7 +73,7 @@ padding: 20px;
 
 <form method="post" action="./form.jsp"><button class="button button1">Add New Record</button></form>
 
-<form method="post" action="./list.jsp"><button class="button button2">View all Record</button></form>
+<form method="post" action="list"><button class="button button2">View all Record</button></form>
   </div>
   
   <div class="foot">
