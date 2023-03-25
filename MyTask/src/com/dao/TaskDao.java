@@ -118,7 +118,7 @@ public class TaskDao {
 				String name = rs.getString("name");
 				String date = rs.getString("date");
 				String city = rs.getString("city");
-				task.add(new Task(id, name, date, city));
+				task.add(new Task(id, date, name, city));
 			}
 		}catch (SQLException e) {
 			printSQLException(e);
